@@ -1,11 +1,3 @@
-import  {Manager}  from './manager.js';
+const manager = require('./manager');
 
-export class ManagerTest {
-
-    test() {
-        const mgr = new Manager();
-        mgr.initdb();
-    }
-}
-
-new ManagerTest().test();
+initdb();
